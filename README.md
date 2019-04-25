@@ -259,7 +259,7 @@ This is the server saying that it can't find the bytecode for `com.cisco.amp.cli
 Let's take a look at what we sent to the server.
 This is a `String` rendering of the exploit attempt.
 ```text
-ï¿½ï¿½ sr com.cisco.amp.server.Submission>ï¿½ï¿½1_Gï¿½ L valuest Ljava/util/Collection;xpsr com.cisco.amp.client.Client$1ï¿½wï¿½:-ï¿½ï¿½  xr java.util.ArrayListxï¿½ï¿½ï¿½ï¿½aï¿½ I sizexp    w    x
+ï¿½ï¿½�sr�com.cisco.amp.server.Submission>ï¿½ï¿½1_Gï¿½�L�valuest�Ljava/util/Collection;xpsr�com.cisco.amp.client.Client$1ï¿½wï¿½:-ï¿½ï¿½��xr�java.util.ArrayListxï¿½ï¿½ï¿½ï¿½aï¿½�I�sizexp����w����x
 ```
 We can see the references to classes we use, along with a little bit of data.
 The bytecode for these classes wasn't sent along though.
